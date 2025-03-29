@@ -10,7 +10,7 @@ public class Ejercicio5 {
         System.out.println("Grados celsius a fahrenheit");
 
         System.out.println("Ingrese los grados celsius");
-        int num = leer.nextInt();
+        double num = leer.nextDouble();
 
         System.out.println(num + " en grados fahrenheit es: " + ((num * 9/5) + 32));
     }
